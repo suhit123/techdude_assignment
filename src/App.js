@@ -13,7 +13,7 @@ function App() {
         <Router>
             <NavigationPanel/>
             <Routes>
-                <Route path={"/"} element={<MyProfile/>}/>
+                <Route path={"/"} index element={<MyProfile/>}/>
                 <Route path={"/my-assignment"} element={<MyAssignment/>}/>
                 <Route path={"/chat-with-mentor"} element={<ChatWithMentor/>}/>
                 <Route path={"/terms-and-conditions"} element={<TermsConditions/>}/>
