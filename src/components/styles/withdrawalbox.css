@@ -1,0 +1,82 @@
+.refblock1{
+margin-top: 5vh;
+box-shadow: 10px 10px 40px lightgray;
+width: 50%;
+border-radius: 30px;
+padding-top: 20px;
+padding-bottom: 30px;
+}
+.refheadings{
+    color: #800080;
+    font-weight: 500;
+    font-size: 20px;
+}
+.refval{
+    font-size: 35px;
+    margin: 8px;
+}
+#refblock1_1{
+    display: flex;
+}
+.refblock1_cont{
+    margin: 25px;
+    margin-left: 44px;
+}
+#withdraw_btn{
+    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#withdrawbutton{
+    cursor: pointer;
+    color: white;
+    background-color: #800080;
+    border: none;
+    border-radius: 25px;
+    font-size: 24px;
+    padding: 12px 16px;
+    gap: 10px;
+}
+@media screen and (max-width: 600px) {
+    .refblock1{
+        margin-top: 5vh;
+        box-shadow: 10px 10px 40px lightgray;
+        width: 100%;
+        border-radius: 30px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        }
+        .refheadings{
+            color: #800080;
+            font-weight: 500;
+            font-size: 15px;
+        }
+        .refval{
+            font-size: 23px;
+            margin: 8px;
+        }
+        #refblock1_1{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .refblock1_cont{
+            margin: 10px;
+            margin-left: 44px;
+        }
+        #withdraw_btn{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        #withdrawbutton{
+            cursor: pointer;
+            color: white;
+            background-color: #800080;
+            border: none;
+            border-radius: 25px;
+            font-size: 17px;
+            padding: 12px 16px;
+            gap: 10px;
+        }  
+}

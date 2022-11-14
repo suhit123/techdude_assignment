@@ -1,0 +1,175 @@
+.econtainer{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#eui_ux{
+    height: 43px;
+    padding-top: 25px;
+    font-size: 18px;
+    font-weight:500;
+}
+#eui_ux button{
+    border: none;
+    background-color: white;
+    font-size: 18px;
+    font-weight:500;
+    cursor: pointer;
+}
+.referalheader{
+    font-size: 24px;
+    color: #800080;
+    font-weight: 500;
+}
+.referalcode{
+    letter-spacing: 5px;
+    font-size: 27px;
+    padding: 10px 20px;
+    border: 1px solid darkgray;
+    border-radius: 10px ;
+    width: max-content;
+}
+.referalcode:hover{
+    border: 1px solid #800080;
+}
+.walletbalance{ 
+    box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+    width: max-content;
+    padding: 20px;
+    border-radius: 30px;
+}
+.balanceheader{
+    font-weight: 500;
+    font-size: 24px;
+    color: #800080;
+}
+.balance{
+    font-size: 27px;
+}
+.linearrange{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+#frndsenroll{
+    margin-top: 50px;
+    font-size: 28px;
+    color: #800080;
+}
+.friendcard{
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+.friendcard::-webkit-scrollbar{
+    display: none;
+}
+#e_tandc{
+    border: none;
+    background-color: white;
+    color: #800080;
+    font-size: 23px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+#clipboard{
+    cursor: pointer;
+}
+.no_checkmark{
+    display: none;
+}
+.yes_checkmark{
+    display: block;
+    text-align: center;
+}
+#go_back{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .econtainer{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #eui_ux{
+        height: 23px;
+        font-size: 15px;
+        font-weight:400;
+    }
+    #eui_ux button{
+        font-size: 15px;
+        font-weight:300;
+        cursor: pointer;
+    }
+    .referalheader{
+        font-size: 24px;
+        color: #800080;
+        font-weight: 500;
+    }
+    .referalcode{
+        letter-spacing: 5px;
+        font-size: 27px;
+        padding: 10px 20px;
+        border: 1px solid darkgray;
+        border-radius: 10px ;
+        width: max-content;
+    }
+    .referalheader{
+        font-size: 18px;
+    }
+    .referalcode{
+        letter-spacing: 2.5px;
+        font-size: 22px;
+    }
+    .walletbalance{
+        box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+        padding: 14px 18px;
+        border-radius: 20px;
+        height: max-content;
+    }
+    .balanceheader{
+        font-weight: 500;
+        font-size: 18px;
+        color: #800080;
+    }
+    .balance{
+        font-size: 20px;
+    }
+    .linearrange{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    #frndsenroll{
+        margin-top: 50px;
+        font-size: 22px;
+    }
+    .friendcard{
+        display: block;
+        overflow-x: hidden;
+    }
+    #e_tandc{
+        border: none;
+        background-color: white;
+        color: #800080;
+        font-size: 18px;
+        margin: 20px;
+        margin-top: 30px;
+        margin-bottom: 60px;
+        cursor: pointer;
+    }
+    #go_back{
+        font-size: 15px;
+        margin-top: 45px;
+        display: block; 
+        color: #800080;
+        background-color: white;
+        border: none;
+    }
+    #go_back_span{
+        font-size: 20px;
+    }
+    #go_back_link{
+        text-decoration: none;
+    }
+}

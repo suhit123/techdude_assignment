@@ -1,0 +1,91 @@
+.refblock2{
+    margin: auto;
+    margin-top: 50px;
+    width: 34%;
+}
+.refcodeheader{
+    color: #800080;
+    font-size: 30px;
+}
+.refcode {
+    --b:2px;  /* border width*/
+    --r:15px; /* the radius */
+    margin-top: 20px;
+    color: #313149;
+    padding: calc(var(--b) + 5px);
+    display: inline-block;
+    position:relative;
+    padding: 20px 50px;
+    padding-left: 60px;
+    letter-spacing: 20px;
+    z-index:0;
+  }
+  .refcode:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    padding: var(--b);
+    border-radius: var(--r);
+    background: var(--c,linear-gradient(270deg, #800080 0%, #FF864C 100%)); 
+    -webkit-mask: 
+       linear-gradient(#fff 0 0) content-box, 
+       linear-gradient(#fff 0 0);
+            mask: 
+       linear-gradient(#fff 0 0) content-box, 
+       linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude;
+  }
+  #clipboard{
+    cursor: pointer;
+}
+.no_checkmark{
+    display: none;
+}
+.yes_checkmark{
+    display: block;
+    text-align: center;
+}
+  @media screen and (max-width: 600px){
+    .refblock2{
+        margin: auto;
+        margin-top: 50px;
+        width: 100vw;
+    }
+    .refcodeheader{
+        color: #800080;
+        font-size: 22px;
+    }
+    .refcode {
+        text-align: center;
+        width: 90%;
+        --b:2px;  /* border width*/
+        --r:15px; /* the radius */
+        margin-top: 20px;
+        color: #313149;
+        padding: calc(var(--b) + 5px);
+        display: inline-block;
+        position:relative;
+        padding: 12px 70px;
+        letter-spacing: 10px;
+        z-index:0;
+      }
+      .refcode:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        inset: 0;
+        padding: var(--b);
+        border-radius: var(--r);
+        background: var(--c,linear-gradient(270deg, #800080 0%, #FF864C 100%)); 
+        -webkit-mask: 
+           linear-gradient(#fff 0 0) content-box, 
+           linear-gradient(#fff 0 0);
+                mask: 
+           linear-gradient(#fff 0 0) content-box, 
+           linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+                mask-composite: exclude;
+      }
+  }
