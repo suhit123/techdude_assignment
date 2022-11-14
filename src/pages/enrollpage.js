@@ -15,7 +15,7 @@ function EnrollPage(props) {
                 &#10148; 
                 <Link to={"/"}><button>Refer & Earn</button></Link>
                 &#10148;
-                <Link to={"/enroll"}><button>Friends Referred</button></Link>
+                <Link to={"/enrollpage"}><button>Friends Referred</button></Link>
             </p>
             <Link id='go_back_link' to={"/"}><button id='go_back'><span id='go_back_span'>←</span> go back</button></Link>
             <div className="linearrange">
