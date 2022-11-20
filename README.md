@@ -1,6 +1,4 @@
 checkout from https://techdudeassignment.netlify.app/
-
-Front page
 ![image](https://user-images.githubusercontent.com/105535366/202889916-4ea0c47b-6799-43b2-997c-77262c035d44.png)
 ![image](https://user-images.githubusercontent.com/105535366/202889933-84189ec0-f77b-4240-bc22-61fb80238d13.png)
 
