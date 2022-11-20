@@ -1,5 +1,8 @@
 checkout from https://techdudeassignment.netlify.app/
 
+Front page
+![image](https://user-images.githubusercontent.com/105535366/202889916-4ea0c47b-6799-43b2-997c-77262c035d44.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
